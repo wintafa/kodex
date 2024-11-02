@@ -1,0 +1,23 @@
+/* ConsultationForm.css */
+.consultation-form {
+    padding: 5%;
+    padding-top: 0;
+    margin: 0;
+}
+
+.hero__title {
+    text-align: center;
+    font-weight: 100;
+}
+
+.b24-form-padding-side {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+@media (max-width: 530px) {
+    .b24-form-padding-side {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

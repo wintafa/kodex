@@ -1,0 +1,1 @@
+const readMoreBtns=document.querySelectorAll(".team__read_more");readMoreBtns.forEach(e=>{e.addEventListener("click",t=>{const a=e.dataset.teamNum;document.querySelector(`[data-team-desc="${a}"`).classList.add("team__desc_open"),e.classList.add("_hide")})});

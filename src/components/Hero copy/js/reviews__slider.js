@@ -1,0 +1,1 @@
+const swiperTeam=new Swiper(".swiper__reviews",{slidesPerView:1,spaceBetween:30,autoHeight:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}});

@@ -1,0 +1,82 @@
+
+.container_forma {
+    font-family: "Playfair Display", Georgia, serif;
+    width: 98S%;
+    height: 28%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #D7AC8A;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: #070707;
+}
+
+.header_forma {
+    margin-bottom: 20px;
+}
+
+.header_forma title-form1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    
+}
+.header_forma title-form2{
+    font-size: 50px;
+    color: #D7AC8A;
+    word-break:inherit;
+    
+}
+.privacy-policy {
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+}
+
+.form-container-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    min-width: 412px;
+
+}
+
+.input-form {
+    width: 30%;
+
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #D7AC8A;
+    border-radius: 5px;
+}
+
+.input-form:last-child {
+    
+
+    margin-right: 0;
+}
+
+.consultation-button-form {
+    width: 30%;
+
+    font-size: 16px;
+    background-color: #D7AC8A;
+    color: black;
+    padding: 30px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.consultation-button-form:hover {
+    background-color: black;
+    color: #D7AC8A;
+    transition: 1s;
+    border: solid 2px #D7AC8A;
+}

@@ -1,0 +1,110 @@
+tr{
+  color: black;
+}
+
+.modal-overlay-price-sud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    font-family: "Playfair Display", Georgia, serif;
+    z-index: 999;
+  }
+  
+  .modal-price-sud{
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    width: 800px; 
+    max-width: 90%;
+    overflow: hidden;
+  }
+  
+  .price__inner-sud{
+    
+    width: 75vw;
+    height:  auto;
+  }
+
+
+
+  @media (max-width: 1200px) {
+    
+    .modal-price-sud{
+      
+      border-radius: 10px;
+      
+      max-width: 90%;
+      overflow: hidden;
+      width: 75vw;
+      height: 60vh;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+    .modal-price-sud{
+      
+      border-radius: 10px;
+      
+      max-width: 90%;
+      overflow: hidden;
+      width: 75vw;
+      height: 60vh;
+    }
+  }
+
+
+  
+  .price__inner-sud {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-block-price-sud {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #D7AC8A;
+    border-radius: 8px;
+  }
+  
+  .block-title-sud {
+    color: #D7AC8A;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #D7AC8A;
+  }
+  
+  .service-separator-sud {
+    height: 20px;
+    background: #D7AC8A;
+  }
+  
+  .price__helper-sud {
+    color:#D7AC8A;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+
+  tr{
+    display: flex;
+    justify-content: space-between;
+  }

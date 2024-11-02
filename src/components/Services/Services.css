@@ -1,0 +1,158 @@
+/* 
+    
+
+.service-container {
+    
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    font-family: "Playfair Display", Georgia, serif;
+    
+   
+    
+}
+
+.service-title {
+    
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.service-content {
+    
+    display: flex;
+    flex: 1;
+}
+.title-service1{
+    text-align: left;
+    justify-content: left;
+    color: white;
+    font-size: 40px;
+}
+.service-image {
+    background-attachment: fixed;
+    
+    background-attachment: fixed !important;
+    flex: 2;
+    background: url('./../../../public/img/fon3.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.service-flex-container {
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.service-flex-block {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.service-flex-block h2 {
+    text-align: center;
+}
+
+.service-flex-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.spisok{
+    Line-height: 60px;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+li:hover{
+    color: rgb(104, 98, 98);
+    transition: 1s;
+}
+
+.service-flex-block li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.court-icon {
+    color: white;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.price-button {
+    padding-left: 60px;
+    width: 985px;
+    font-size: 20px;
+    height: 6%;
+    background-color: #D7AC8A;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.price-button:hover {
+    background-color: black;
+    color: #D7AC8A;
+}
+
+.service-contact {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+    background-image: url(./bg-black2.jpeg);
+   
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-button {
+    background-color: #D7AC8A;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: black;
+    color: #D7AC8A;
+}
+
+textarea {
+    resize: none;
+}
+ */

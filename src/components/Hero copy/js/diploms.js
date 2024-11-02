@@ -1,0 +1,1 @@
+const swiperDiploms=new Swiper(".swiper__diploms",{slidesPerView:1,spaceBetween:20,freeMode:!0,breakpoints:{320:{},500:{slidesPerView:2},768:{slidesPerView:3},992:{slidesPerView:4,spaceBetween:30},1200:{slidesPerView:5,spaceBetween:21}},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}});

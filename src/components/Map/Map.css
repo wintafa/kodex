@@ -1,0 +1,30 @@
+.map-widget {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .map-link {
+    color: #eee;
+    font-size: 12px;
+    position: absolute;
+  }
+  
+  .title {
+    top: 0px;
+  }
+  
+  .subtitle {
+    top: 14px;
+  }
+  
+  .agency {
+    top: 28px;
+  }
+  
+  .map-iframe {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+  

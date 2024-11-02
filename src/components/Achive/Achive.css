@@ -1,0 +1,189 @@
+.privet{
+    background-color: rgb(15, 15, 15);;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    font-family: "Playfair Display", Georgia, serif !important;
+}
+.achive-content{
+    background-color: black;
+    width: 100%;
+    height: 22%;
+    font-family: "Playfair Display", Georgia, serif;
+    
+
+
+   
+    
+}
+.counter-container{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.word-achive{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    letter-spacing: 2px;
+
+    
+}
+
+.chislo{
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    /* font-weight: bold; */
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.achive-item{
+    width: 25%;
+    padding: 30px;
+    margin: 0 auto;
+    display: grid;
+}
+
+/* .counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+.counter {
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: 3rem; /* Размер текста */
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeIn 0.5s forwards; /* Применяем анимацию появления */
+    margin: 20px 0; /* Отступы между числами */
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+
+
+
+    
+    font: 800 40px system-ui;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Конечная непрозрачность */
+    }
+}
+
+
+/* @media (max-width: 768px) {
+    .counter-container{
+        display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    }
+    .custom-counter{
+        width: 100%;
+    }
+
+} */
+
+
+.counter-block {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .counter-container {
+    flex: 1 1 200px; /* минимальная ширина 200 пикселей */
+    
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .counter-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .counter-title {
+    font-family: "Playfair Display", Georgia, serif !important;
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    /* font-weight: bold; */
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+  }
+  
+  .counter-value {
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .counter-description {
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Мобильные стили */
+  @media (max-width: 600px) {
+    .counter-block {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .counter-container {
+      width: 100%; /* Полная ширина на мобильных устройствах */
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+
+
+  .counter-container h3 {
+    display: grid;
+    margin: 0 !important;
+    
+  }
+
+  .counter-container p {
+    display: grid;
+    margin: 0 !important;
+    
+  }
+
+  @media (max-width: 500px){
+    .counter-block {
+     
+      padding: 0;
+  }
+}
+    
+  

@@ -1,0 +1,1 @@
+const aboutUsBtn=document.querySelector(".about__us_btn"),aboutUsTxt=document.querySelector(".about__us_text");aboutUsBtn.addEventListener("click",()=>{aboutUsTxt.classList.add("about__us_text_open"),aboutUsBtn.classList.add("_hide")});

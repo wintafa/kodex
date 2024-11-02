@@ -1,0 +1,169 @@
+.custom-counter {
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-image: url('./about-us1.jpg');
+    display: flex;
+    font-family: "Playfair Display", Georgia, serif;
+    /* width: 100vw; */
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.overlay {
+    /* Добавьте стили для вашего наложения, если нужно */
+}
+.team-photo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: top center;
+    margin: 0 auto; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    width: 40%;
+}
+.container-custom {
+    width: 80%;
+	margin: 30px auto;
+	padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.row-custom {
+    animation: fadeInUp 0.5s forwards; /* добавьте вашу анимацию */
+}
+
+.column-custom {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.title-custom {
+    align-items: center;
+    color: #D7AC8A;
+    font-size: 45px !important;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.item-text{
+
+    display: block;
+    align-items: flex-start;
+    font-size: 20px;
+    margin: 0 auto; 
+    justify-content: start;
+    
+    /* width: 100%; */
+    width: 80%;
+    color: #fff;
+    text-align: justify;
+    padding: 10px
+}
+
+
+/* .text-custom {
+    
+    display: block;
+    justify-content: center;
+    text-align: justify !important;
+    width: 50%;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 1em;
+} */
+
+.cta-container {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.btn-kodex{
+    padding-top: 10px
+}
+.cta-button {
+    padding: 5px;
+    color: #0f0f0f;
+    font-weight: bold;
+    text-decoration: none;
+    /* Добавьте другие стили для кнопки, например, фоновый цвет, границы и т.д. */
+}
+
+/* Если хотите добавить анимацию */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.consultation-button{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-codex{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .container-custom{
+        width: 100% !important;
+        padding: 0;
+    }
+    .custom-counter{
+        width: 100%;
+       
+            padding-left: 5%;
+            padding-right: 5%;
+        
+    }
+    .btn-codex{
+        
+        padding-bottom: 20px;
+    }
+    .title-custom{
+        font-size: 36px !important;
+    }
+    .team-photo {
+        width: 97% !important;
+     } 
+     .item-text{
+        width: 100%;
+     }}
+
+
+     @media screen and (max-width: 1070px) {
+        
+        .team-photo {
+            width: 80%;
+         } 
+         .item-text{
+            width: 100%;
+         }}
+
+
+         @media screen and (max-width: 1300px) {
+            
+            .team-photo {
+                width: 60%;
+             } 
+             .item-text{
+                width: 78%;
+             }}

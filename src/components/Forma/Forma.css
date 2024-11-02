@@ -1,0 +1,125 @@
+/* 
+.salam{
+    background-color: #ffffff;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+ } */
+
+.container_forma {
+    margin: 10px;
+    /* margin: 0 auto; */
+    font-family: "Playfair Display", Georgia, serif;
+    /* width: 100vw; */
+    /* height: 28%; */
+    
+    padding: 40px;
+    border: 1px solid #D7AC8A;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: #070707;
+}
+
+.header_forma {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    gap: 5px
+}
+
+.header_forma title-form1 {
+    
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    
+}
+.header_forma title-form2{
+    
+    font-size: 50px;
+    color: #D7AC8A;
+    word-break:inherit;
+    
+}
+.privacy-policy {
+    position: absolute;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+}
+
+.form-container-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    /* min-width: 600px; */
+
+}
+
+.input-form {
+    min-width: 20%;
+    max-width: 30%;
+
+    font-size: 24px;
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #D7AC8A;
+    border-radius: 5px;
+}
+
+.input-form:last-child {
+    
+
+    margin-right: 0;
+}
+
+.consultation-button-form {
+    min-width: 20%;
+    max-width: 30%;
+    min-height: auto;
+    max-height: auto;
+    font-size: 24px;
+    background-color: #D7AC8A;
+    color: black;
+    padding: 30px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.consultation-button-form:hover {
+    background-color: black;
+    color: #D7AC8A;
+    transition: 1s;
+    border: solid 2px #D7AC8A;
+}
+
+
+@media (max-width: 1000px) {
+    .container_forma{
+
+    }
+    .form-container-form{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container_forma{
+        
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .container_forma{
+        
+    }
+    
+}

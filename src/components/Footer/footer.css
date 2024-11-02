@@ -1,0 +1,554 @@
+.foot{
+    font-family: "Playfair Display", Georgia, serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #000000;
+    padding: 0;
+    margin: 0 auto;
+    height: 47vh;
+    width: 100vw;
+    overflow: hidden;
+    /* padding: 120px; */
+    padding-top: 15px;
+    background-image: url('');
+    background-image: url(./bg-black2.jpeg);
+}
+
+.row-foot{
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 60px !important;
+    /* padding-left: 50px; */
+    padding-top: 25px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.title-foot{
+    font-size: 54px;
+    
+}
+
+.contacts-foot{
+    flex-wrap: wrap;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    column-gap: 15dvh;
+    row-gap: 40px;
+}
+    .title-foot{
+        color: #D7AC8A;
+        font-size: 50px;
+         
+    }
+    
+    .phone-foot{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-align: left;
+        
+    }
+        .phone-foot img{
+        height: 45px;
+        vertical-align: baseline;
+        }
+        .number-phone-foot {
+            color: #ddc6b5;
+            font-size: 40px;
+            
+        }
+
+    .social{
+        flex-wrap: wrap;
+        column-gap: 30px !important;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        left: 0 !important; 
+        text-align: left !important;
+    }
+    .social a{
+        text-decoration: none;
+        color:#D7AC8A;
+        
+
+    }
+    .social a:hover{
+       transition: 1s;
+        color:#ffffff;
+        
+
+    }
+        .whatsapp{
+            display: flex;
+            width: 190px;  
+            min-height: 50px;
+            max-height: 50px; 
+            border: solid 2px #D7AC8A;
+            gap:7px;
+            /* margin: 0 auto; */
+             justify-content: center; 
+             align-items: center; 
+             text-align: left; 
+            border-radius: 5px;
+            
+        
+            }
+            .whatsapp-logo{
+                height: 70% !important;
+                color:#D7AC8A !important;
+            }
+            .whats-title{
+                
+                color:#D7AC8A;
+                font-size: 15px;
+                cursor: pointer;
+                
+            }
+            .telegram{
+                display: flex;
+                width: 190px;  
+            min-height: 50px;
+            max-height: 50px; 
+                border: solid 2px #D7AC8A;
+                gap:7px;
+                
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                
+            
+                }
+                .telegram-logo{
+                    height: 70% !important;
+                    color:#D7AC8A !important;
+                }
+                .telegram-title{
+                    
+                    color:#D7AC8A;
+                    font-size: 15px;
+                    cursor: pointer;
+                    
+                }
+                
+        .more-info{
+            display: flex;
+            flex-direction: row;
+            column-gap: 50px;
+            min-width: 7vw;
+            justify-content: start;
+            min-height: 100px;
+
+        }
+            .info-item{
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                width: 10vw;
+                max-height: 85px;
+                
+            
+            }
+
+            .info-item img{
+                height: 50px;
+                width: 50px;
+            }
+            .info-item a{
+                text-decoration: none;
+                font-size: 17px;
+                color:#D7AC8A
+            }
+            .info-item a:hover{
+                color:#ffffff;
+                transition: 1s;
+            }
+
+            
+        .company-footer{
+            display: flex;
+            column-gap: 50px;
+            
+        }    
+            .codex-footer{
+                display: flex;
+                flex-direction: column;
+                height: 80px;
+                
+                /* justify-content: center; */
+            }
+                .logoblock{
+                    display: flex;
+                    column-gap: 10px;
+                }
+                    .codex-footer img{
+                    height: 80px;
+                    width: 80px;
+                    }
+            
+
+            .virlab{
+                min-height: 80px;
+                display: flex;
+                flex-direction: column;
+            }
+            .virlab-logoblock{
+                
+                min-height: 80px;   
+            }
+                .virlab img{
+                    min-height: 40px;
+                    min-width: 160px;
+                    max-height: 80px;
+                    max-width: 320px;
+                }
+                
+        
+            .text-foot{
+                padding-top: 15px;
+                letter-spacing: 1px;
+                font-size: 15px;
+                font-weight: bold;
+                color:#ffffff ;
+                opacity: 0.7;
+            }
+/* .form-foot{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+} */
+
+    .free{
+        color: #D7AC8A;
+        font-size: 25px
+    }  
+    .free span{
+        color: white;
+        font-size: 40px; 
+    }
+
+
+    .form-container-foot {
+        
+        width: 45%;
+        height: 60vh;
+        /* background-color: #222; Фон формы */
+        /* padding: 20px; */
+        padding-right: 20px;
+        
+        
+        row-gap: 40px;
+       
+        
+        color: white; /* Цвет текста по умолчанию */
+        border-radius: 10px; /* Опционально, чтобы сгладить углы */
+      }
+      
+      .form-title-foot {
+        font-size: 40px;
+        color:#D7AC8A;
+        display: flex;
+        color: #D7AC8A;
+        margin-bottom: 18px;
+        left: 0;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: start;
+      }
+      
+      .input-group-foot {
+        width: 31vw;
+        margin-bottom: 15px;
+      }
+      
+      .input-field-foot {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        font-size: 26px;
+        border-bottom: 2px solid #D7AC8A;
+        background: transparent;
+        color: white;
+        
+      }
+      
+      .input-field-foot::placeholder {
+        color: #D7AC8A; /* Цвет плейсхолдера */
+      }
+      
+      .submit-button-foot {
+        width: 31vw;
+        height: 90px;
+        padding: 10px;
+        background-color: #D7AC8A;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border: solid 2px #D7AC8A;
+        cursor: pointer;
+        font-size: 40px;
+        
+        transition: background-color 0.3s, color 0.3s; /* Анимация изменения цвета */
+      }
+      
+      .submit-button-foot:hover {
+        background-color: black; /* Цвет фона при наведении */
+        color: #D7AC8A; /* Цвет текста при наведении */
+        transition: 0.8s;
+      }
+      
+      .consent-text {
+        margin-top: 26px;
+        text-align: center;
+        text-align: left;
+      }
+      
+      .highlight-text {
+        font-size: 26px;
+        color: #D7AC8A; /* Выделенный цвет для ссылки на политику */
+      }
+      
+
+      .whatsapp-logo  {
+        height: 35px !important;
+    }
+   .telegram-logo{
+    height: 45px !important;
+   }
+      
+/* @media (max-width: ) {
+
+}  */
+
+
+@media (max-width: 1100px){
+   
+    .contacts-foot{
+        padding: 20px;
+    }
+    .title-foot{
+        font-size: 35px;
+        
+        
+    }
+    .form-container-foot {
+        width: 70%;
+        padding: 30px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding: 0;
+        border-top-left-radius: 0;
+    border-top-right-radius: 0;
+        height: 80vh;}
+
+    .row-foot{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+
+    .company-footer{
+        flex-direction: column;
+        gap: 50px
+    }
+}
+.form-mobile {
+    display: none;
+}
+.company-footer{
+        display: flex;
+        column-gap: 20px;
+        flex-direction: column;
+        
+    }    
+
+
+@media (max-width: 768px){
+    
+    .form-container-foot {
+        
+       
+        height: 46vh;}
+    .foot{
+        
+        height: 118vh;}
+    .form-mobile {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .info-item-email{
+        width: 50px;
+        height: 50px;
+    }
+    .more-info{
+        height: 200px !important;
+        display: flex;
+        flex-direction: column;
+        /* column-gap: 40px; */
+        width: 100%;
+        justify-content: space-around;
+        gap: 10px;
+
+    }
+        .info-item{
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+            
+            min-width: 350px;
+            max-height: 85px;
+            padding-top: 5px;
+            justify-content: normal;
+           
+        }
+
+        .info-item img{
+
+            height: 35px;
+            width: 35px;
+        }
+        .info-item a{
+            text-decoration: none;
+            font-size: 17px;
+            color:#D7AC8A;
+            width: 100%;
+            text-align: left;
+        }
+        .info-item a:hover{
+            color:#ffffff;
+            transition: 1s;
+        }
+        .form-desktop{
+            display: none;
+        }
+
+    .social{
+        flex-wrap: wrap;
+        column-gap: 4px !important;
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        left: 0 !important; 
+        text-align: left !important;
+    }
+    .social a{
+        text-decoration: none;
+        color:#D7AC8A;
+        font-size: 16px;
+
+    }
+    .whatsapp-logo  {
+        height: 30px !important;
+    }
+   .telegram-logo{
+    height: 45px !important;
+   }
+
+
+    .phone-foot{
+        display: flex;
+        
+        align-items: center;
+        text-align: left;
+        
+    }
+        .phone-foot img{
+        height: 35px;
+        vertical-align: baseline;
+        }
+        .number-phone-foot {
+            color: #ddc6b5;
+            font-size: 22px;
+            
+        }
+    .contacts-foot{
+        padding: 22px;
+        width: 100%;
+        row-gap: 25px;
+    }
+    
+    .company-footer{
+        display: flex;
+        column-gap: 20px;
+        flex-direction: row;
+        
+    }    
+        .codex-footer{
+            display: flex;
+            flex-direction: column;
+            height: 80px;
+            
+            /* justify-content: center; */
+        }
+            .logoblock{
+                display: flex;
+                column-gap: 10px;
+            }
+                .codex-footer img{
+                height: 70px;
+                width: 70px;
+                }
+        
+
+        .virlab{
+            min-height: 80px;
+            min-width: 160px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 44px;
+        }
+        .virlab-logoblock{
+            
+            min-height: 80px;   
+        }
+            .virlab img{
+                width: 160px !important;
+                height: 70px !important;
+                /* min-height: 30px;
+                min-width: 160px;
+                max-height: 70px;
+                max-width: 320px; */
+            }
+            
+    
+        .text-foot{
+            padding-top: 15px;
+            letter-spacing: 1px;
+            font-size: 14px;
+            
+        }
+
+        .first-foot{
+            display: flex;
+            flex-direction: column;
+            column-gap: 12px !important;
+        }
+        .whatsapp{
+            width: 150px;
+        }
+        .telegram{
+            width: 150px;
+        }
+        .social{
+            column-gap: 14px !important;
+        }
+}
+
+
+.first-foot{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}

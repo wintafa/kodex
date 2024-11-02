@@ -1,0 +1,1 @@
+const swiperTeam=new Swiper(".swiper__team",{slidesPerView:1,spaceBetween:0,breakpoints:{992:{slidesPerView:2,spaceBetween:50}},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}});

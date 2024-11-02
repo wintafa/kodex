@@ -1,0 +1,80 @@
+
+  .hero-section {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('./fon4.jpg'); /* Путь к вашему фоновому изображению */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 30px 0;
+  }
+  
+  .roadmap {
+    position: relative;
+    margin: 50px 0;
+  }
+  
+  .roadmap-line {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 50px;
+    align-items: center;
+  }
+  
+  .roadmap-line:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: white; /* Цвет линии */
+    z-index: 1;
+  }
+  
+  .step {
+    position: relative;
+    z-index: 2; /* Чтобы текст был поверх линии */
+    padding: 10px;
+  }
+  
+  .roadmap-dots {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    background: white; /* Цвет точек */
+    border-radius: 50%;
+    position: relative;
+    z-index: 2; /* Чтобы точки были поверх линии */
+  }
+  
